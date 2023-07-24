@@ -1,70 +1,143 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Hitesh's Personnal Site</title>
-  </head>
-  <body>
-    <table cellspacing=20>
-      <tr>
-      <td><img src="SINGLE_whiteBackground.jpg" alt="Hitesh's Profile picture" width="200" height="250"></td>
-      <td><h1>Hitesh</h1>
-      <p><i>Application Tool Programmer at TCS</i></p>
-      <p>I am a Web developer. <br>Love tea. <br>From Sitamrhi, Bihar.</p></td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-      <li>College: <strong><a href="https://cmrit.ac.in">CMRIT</a></strong></li>
-      <li>12th: St. Karen's Sec. School</li>
-      <li>10th: St. Xavier's</li>
-    </ul>
-    <hr>
-    <h3>My Hobbies</h3>
-      <ol>
-        <li>Travelling</li>
-        <li>Youtube</li>
-        <li>Games</li>
-      </ol>
-      <h3><a href="Contact_me.html">Contact me!</a></h3>
-      <hr>
-      <h3>Work Experience</h3>
-      <table border="1px">
-        <caption><strong>Work Experience Details in TCS</strong></caption>
-        <tr>
-          <th>Project 1</th>
-          <th>Project 2</th>
-        </tr>
-        <tr>
-          <td>PwC US Project</td>
-          <td>Howmet ER Project</td>
-        </tr>
-      </table>
-      <hr>
-      <h3>Skills</h3>
-      <table border="1">
-        <tr>
-          <td>      <table>
-                  <tr>
-                    <td>JAVA</td><td>⭐⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>SQL</td><td>⭐⭐⭐</td>
-                  </tr>
-                </table></td>
-          <td>
-            <table>
-              <tr>
-                <td>c programming</td><td>⭐⭐⭐⭐</td>
-              </tr>
-              <tr>
-                <td>c++ programming</td><td>⭐⭐</td>
-              </tr>
-            </table>
-          </td>
-          </tr>
-      </table>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HITESH KUMAR - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>HITESH KUMAR</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  </body>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Software Engineer working in TCS for the last 4 years. Passionate innovator designing solutions to use technology to solve real-world problems and ability to perform well in a team. Working in Payroll project to design and develop responsive web components using React.
+      </p>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+      <ul>
+        <li>
+          <strong>Frontend developer</strong>
+          <span>Tata Consultancy Services (TCS), May 2021 - Present</span>
+          <ul>
+            <li>Web-based application to manage balances, accruals, punches, and handle payroll of the employees.</li>
+            <li>Developed and designed multiple modules of the application like Future Work details, automated task for duplicate user and clock punches authentication at scheduled shift timing based on client's requirement in agile methodology.</li>
+            <li>Participated in project meetings and contributed numerous ideas and implemented solutions too, for which I received the appreciation from the Client and Top management.</li>
+            <li>Along with debugging, worked on Multiple Bug Fixing, APIs implementation.</li>
+            <li>Client: Arconic Inc., Howmet Aerospace.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>System Engineer</strong>
+          <span>Tata Consultancy Services (TCS), June 2019 – May 2021</span>
+          <ul>
+            <li>Developing and designing e-Learning course using cloud-based GOMO tool.</li>
+            <li>Hassle-free multi-device publishing.</li>
+            <li>Tracking and delivering eLearning content to users, websites, LMSs.</li>
+            <li>Client: PWC (PricewaterhouseCoopers).</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Software Developer Intern</strong>
+          <span>Varistor Technologies Pvt. Ltd., Feb 2019 – April 2019</span>
+          <ul>
+            <li>Developing and learning fragments of e-commerce android application (VariEx).</li>
+            <li>Worked on Carousel Slider, Footer Navigation, cards Layout.</li>
+            <li>Attended various workshops on Android development and IOT services.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>News Duniya</strong>
+          <p>
+            Successfully created a news website which shows real-time news category-wise. It displays the source and timestamp of the news.
+          </p>
+        </li>
+        <li>
+          <strong>E-commerce website</strong>
+          <p>
+            Fully responsive web layout that shows dummy products after fetching data from API. Users can add/remove products from their cart (used redux for state management). Navigate to multiple pages from the header (uses router for seamlessly navigating to a different page of the website).
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="technical-skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Languages: JavaScript</li>
+        <li>Framework & Library: React Js, Redux Toolkit, Bootstrap, Axios</li>
+        <li>Web Technologies: HTML, CSS</li>
+        <li>Database: OracleSQL</li>
+        <li>Tools: ITG, GOMO, ServiceNow, Putty (UNIX shell script), Git, CVS, Postman</li>
+        <li>Product Design/UX Design</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>CMR Institute of Technology</strong>
+          <span>B.E, Computer Science and Engineering (Aug 2015 - July 2019)</span>
+          <p>Result in GPA: 7.2</p>
+        </li>
+        <li>
+          <strong>St. Karen’s Secondary School, Patna (C.B.S.E.)</strong>
+          <span>Jun 2012 – Mar 2014</span>
+          <p>Result in percentage: 71.5%</p>
+        </li>
+        <li>
+          <strong>St. Xavier’s Jr./Sr. School, Muzaffarpur (C.B.S.E.)</strong>
+          <span>Jun 2010 – Mar 2012</span>
+          <p>Result in GPA: 9.0</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements/Certificates</h2>
+      <ul>
+        <li>Group Representative for 54 Associate during Initial Learning Program in TCS.</li>
+        <li>Received appreciation from Client (Arconic) and top management in TCS.</li>
+      </ul>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies/Interest</h2>
+      <p>Movies, Web Series, Travelling, Driving, Cooking.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: hitesh.kr.8996@gmail.com</li>
+        <li>Mobile: +91 9036148474</li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/hiku15cs/" target="_blank">linkedin.com/in/hiku15cs/</a></li>
+        <li>GitHub: <a href="https://github.com/hiku15cs" target="_blank">github.com/hiku15cs</a></li>
+        <li>Address: Bengaluru, India</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
 </html>
